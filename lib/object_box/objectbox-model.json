@@ -1,0 +1,59 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:7615987500517719973",
+      "lastPropertyId": "6:7951498961686304194",
+      "name": "UserModelObject",
+      "properties": [
+        {
+          "id": "1:2278523024221879804",
+          "name": "internalId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8117220980478559912",
+          "name": "userId",
+          "type": 6,
+          "flags": 8,
+          "indexId": "1:4575108284146096040"
+        },
+        {
+          "id": "3:4600574309038488451",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:9178713075232861531",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "5:3728412922904643849",
+          "name": "mobile",
+          "type": 9
+        },
+        {
+          "id": "6:7951498961686304194",
+          "name": "roll",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:7615987500517719973",
+  "lastIndexId": "1:4575108284146096040",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
