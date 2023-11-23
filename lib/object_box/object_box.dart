@@ -28,7 +28,7 @@ class ObjectBox {
     if (existing.isNotEmpty) {
       return existing;
     }
-    return null;
+    return [];
   }
 
   deleteData() {

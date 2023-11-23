@@ -12,11 +12,12 @@ class UserModelObject {
   String? mobile;
   String? roll;
 
-  UserModelObject(
-      {required this.internalId,
-      required this.userId,
-      this.name,
-      this.email,
-      this.mobile,
-      this.roll});
+  UserModelObject({
+    required this.internalId,
+    required this.userId,
+    this.name,
+    this.email,
+    this.mobile,
+    this.roll,
+  });
 }
